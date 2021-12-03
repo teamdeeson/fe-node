@@ -13,6 +13,6 @@ RUN apk add --no-cache autoconf \
   libtool \
   nasm \
   optipng \
-  python
+  python3
 
 RUN adduser -D -s /bin/bash pipelines
